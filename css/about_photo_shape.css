@@ -1,0 +1,70 @@
+.shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: calc(150px + 4vw);
+    width: calc(150px + 4vw);
+    margin-left: 150px;
+    background-image: linear-gradient(to bottom right, #08f, #8854b6, rgb(180, 63, 226));
+}
+
+.shape-inner {
+    height: calc(130px + 4vw);
+    width: calc(130px + 4vw);
+    background: url(../images/jxon_profile.JPG) no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.circle {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+
+@media (max-width: 400px) {
+    .shape-outer {
+        display: flex;
+        flex-shrink: 0;
+        height: calc(150px + 4vw);
+        width: calc(150px + 4vw);
+        margin-left: 150px;
+        background-image: linear-gradient(to bottom right, #08f, #8854b6, rgb(180, 63, 226));
+
+      
+        left: 50%;
+        transform: translate(-30%, -30%);
+    }
+
+    .shape-inner {
+        height: calc(130px + 6vw);
+        width: calc(130px + 6vw);
+        background: url(../images/jxon_profile.JPG) no-repeat center;
+        background-size: cover;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .shape-outer {
+        display: flex;
+        flex-shrink: 0;
+        height: calc(150px + 4vw);
+        width: calc(150px + 4vw);
+        margin-left: 150px;
+        background-image: linear-gradient(to bottom right, #08f, #8854b6, rgb(180, 63, 226));
+
+        left: 50%;
+        transform: translate(-40%, -30%);
+    }
+
+    .shape-inner {
+        height: calc(130px + 6vw);
+        width: calc(130px + 6vw);
+        background: url(../images/jxon_profile.JPG) no-repeat center;
+        background-size: cover;
+        margin: auto;
+    }
+
+}
